@@ -1,11 +1,9 @@
 # dockerAI
 YouTube Video: Build AI Agents with Docker, Here’s How
 
-
 ## Instructions
 
-
-Certainly, I can help you create a Dockerfile to run a simple "hello world" Python file. Here's a basic Dockerfile that should work for this purpose:
+Here's a basic Dockerfile that should work for this purpose:
 
 ```dockerfile
 # Use an official Python runtime as the base image
