@@ -33,3 +33,10 @@ To use this Dockerfile:
 3. Run the container using: `docker run hello-world-python`
 
 Would you like me to explain any part of this Dockerfile or provide more information about using Docker with Python?
+
+### Data set creation using LLM prompting
+give me 10 idesas for a simple dataset for LLM fine-tuning
+
+let's go with idea #1
+
+create a new CSV dataset, with 30 rows, with 5 different columns

@@ -1,0 +1,31 @@
+Date,Location,Temperature (°F),Humidity (%),Wind Speed (mph),Weather Condition
+2024-07-01,New York,72,65,8,Partly Cloudy
+2024-07-02,Los Angeles,75,60,5,Sunny
+2024-07-03,Chicago,68,75,12,Rainy
+2024-07-04,Houston,70,70,7,Overcast
+2024-07-05,Miami,77,55,6,Clear
+2024-07-06,Seattle,73,68,9,Partly Cloudy
+2024-07-07,Denver,69,80,15,Thunderstorm
+2024-07-08,Boston,71,72,11,Cloudy
+2024-07-09,San Francisco,76,58,4,Sunny
+2024-07-10,Atlanta,74,63,8,Clear
+2024-07-11,New Orleans,67,82,14,Rainy
+2024-07-12,Philadelphia,70,75,10,Overcast
+2024-07-13,Phoenix,78,50,6,Sunny
+2024-07-14,Detroit,72,68,9,Partly Cloudy
+2024-07-15,Las Vegas,75,62,7,Clear
+2024-07-16,Portland,69,78,13,Thunderstorm
+2024-07-17,Dallas,71,70,8,Cloudy
+2024-07-18,San Diego,76,55,5,Sunny
+2024-07-19,Minneapolis,73,65,9,Partly Cloudy
+2024-07-20,Nashville,68,85,16,Heavy Rain
+2024-07-21,Austin,70,72,11,Overcast
+2024-07-22,Orlando,77,52,6,Clear
+2024-07-23,Salt Lake City,75,60,8,Sunny
+2024-07-24,Washington D.C.,72,68,10,Partly Cloudy
+2024-07-25,St. Louis,69,80,14,Rainy
+2024-07-26,Kansas City,71,75,12,Cloudy
+2024-07-27,Sacramento,76,58,5,Sunny
+2024-07-28,Charlotte,74,63,7,Clear
+2024-07-29,Indianapolis,70,70,9,Overcast
+2024-07-30,Columbus,73,67,8,Partly Cloudy
