@@ -1,0 +1,31 @@
+Date,Threat Name,Type,Severity,Affected Systems,Primary Target
+2024-01-05,CryptoLocker,Ransomware,High,Windows,Financial data
+2024-01-12,ZeuS,Trojan,High,Windows,Banking credentials
+2024-01-20,Stuxnet,Worm,Critical,Industrial control systems,Infrastructure
+2024-01-28,Conficker,Worm,Medium,Windows,Corporate networks
+2024-02-03,WannaCry,Ransomware,Critical,Windows,Healthcare systems
+2024-02-10,Mydoom,Worm,Medium,Windows; Linux,DDoS attacks
+2024-02-18,Petya,Ransomware,High,Windows,MBR encryption
+2024-02-25,ILOVEYOU,Virus,Medium,Windows,File corruption
+2024-03-04,Mirai,Botnet,High,IoT devices,DDoS attacks
+2024-03-12,CryptoWall,Ransomware,High,Windows,File encryption
+2024-03-20,Locky,Ransomware,High,Windows,File encryption
+2024-03-28,Emotet,Trojan,Critical,Windows,Banking data
+2024-04-05,NotPetya,Wiper,Critical,Windows,Data destruction
+2024-04-13,SamSam,Ransomware,High,Windows; Linux,Healthcare; Government
+2024-04-21,BlackEnergy,Trojan,High,Industrial control systems,Power grids
+2024-04-29,Kovter,Fileless malware,Medium,Windows,Click fraud
+2024-05-07,Reaper,IoT Botnet,High,IoT devices,DDoS attacks
+2024-05-15,Heartbleed,Vulnerability,Critical,OpenSSL,Data theft
+2024-05-23,Cerber,Ransomware,High,Windows,File encryption
+2024-05-31,Gh0st RAT,Trojan,Medium,Windows,Corporate espionage
+2024-06-08,Flame,Spyware,High,Windows,Middle Eastern countries
+2024-06-16,Kraken,Botnet,Medium,Windows,Spam distribution
+2024-06-24,Locky,Ransomware,High,Windows,File encryption
+2024-07-02,Sasser,Worm,Medium,Windows,System crashes
+2024-07-10,TeslaCrypt,Ransomware,High,Windows,Game files
+2024-07-18,SQLSlammer,Worm,High,MS SQL Server,DDoS attacks
+2024-07-26,CodeRed,Worm,High,Windows Server,Web defacement
+2024-08-03,Ryuk,Ransomware,Critical,Windows,Large organizations
+2024-08-11,Dridex,Banking Trojan,High,Windows,Financial data
+2024-08-19,Maze,Ransomware,Critical,Windows,Data exfiltration

@@ -85,4 +85,34 @@ file_path = input("\nEnter the name of your CSV file: ")
 file_path = os.path.join('/app/data', file_path)
 desired_rows = int(input("Enter the number of rows you want in the new dataset: "))
 
-# Read
+# Read the sample data from the input CSV file
+sample_data = read_csv(file_path)
+sample_data_str = "\n".join([",".join(row) for row in sample_data]) # Converts 2D list into a single string
+
+print("\nLaunching Team of Agents")
+#Analyze the sample data using the Analyzer Agent
+analysis_result = analyzer_agent(sample_data_str)
+print("\n### Analyzer Agent output: ###\n")
+print(analysis_result)
+print("\n-----------------------------------------\n\nGenerating new data....")
+
+# Set up the output file
+output_file = "/app/data/data_out.csv"
+headers = sample_data[0]
+save_to_csv("", output_file, headers)
+
+batch_size = 30
+generated_rows = 0
+
+# Generate data in batches until we reach the desired number of rows
+while generated_rows < desired_rows:
+    # Calculate how many rows to generate in this batch
+    rows_to_generate = min(batch_size, desired_rows - generated_rows)
+    # Generate a batch of data using the Generator Agent
+    generator_data = generator_agent(analysis_result,sample_data_str, rows_to_generate)
+    # Append to generaged data to the output file
+    save_to_csv(generator_data, output_file)
+    # Update the count of generated rows
+    generated_rows += rows_to_generate
+    # Print progress update
+    print(f"Generated {generated_rows} out of {desired_rows}")
